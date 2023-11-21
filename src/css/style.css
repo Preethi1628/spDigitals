@@ -125,7 +125,7 @@ div#preloader { position: fixed; left: 0; top: 0; z-index: 99999; width: 100%; h
 .ready-btn.right-btn { margin-right: 15px; background: #ff471a; border: 1px solid #ff471a !important; }
 .ready-btn.right-btn:hover { background: transparent !important; border: 1px solid #fff !important; }
 
-.nivo-directionNav { display: block; }
+.nivo-directionNav { display: none }
 
 /* Normal desktop :992px. */
 @media (min-width:1400px) and (max-width:1920px) {
@@ -170,7 +170,7 @@ preview-1
 .preview-1:hover .nivo-directionNav a { opacity: 1; }
 .nivo-prevNav { left: 15px; }
 .nivo-nextNav { right: 15px; }
-.preview-1 a.nivo-nextNav { background-position: -30px 0; }
+
 .preview-1 .nivo-caption { font-family: Helvetica, Arial, sans-serif; }
 .preview-1 .nivo-caption a { color: #fff; border-bottom: 1px dotted #fff; }
 .preview-1 .nivo-caption a:hover { color: #fff; }
@@ -185,14 +185,8 @@ preview-1
 /* -------------------------------------
 preview-2
 ---------------------------------------- */
-.preview-2 .nivoSlider:hover .nivo-directionNav a.nivo-prevNav { left: 50px; }
-.preview-2 .nivoSlider:hover .nivo-directionNav a.nivo-nextNav { right: 50px; }
-.preview-2 .nivoSlider .nivo-directionNav a.nivo-prevNav { font-size: 0; }
-.preview-2 .nivoSlider .nivo-directionNav a.nivo-nextNav { font-size: 0; }
-.preview-2 .nivo-directionNav a.nivo-prevNav::before { background: rgba(0, 0, 0, 0) none repeat scroll 0 0; color: #ffffff; content: "<"; cursor: pointer; font: 300 50px/50px FontAwesome; position: absolute; text-align: center; top: 50%; transition: all 300ms ease-in 0s; z-index: 9; font-weight: 100; left: 0px; width: 50px; border: 1px solid #fff; border-radius: 50%; font-size: 30px; }
-.preview-2 .nivo-directionNav a.nivo-nextNav:hover:before, .preview-2 .nivo-directionNav a.nivo-prevNav:hover:before { border-color: #ff471a; color: #fff; background: #ff471a; }
-.preview-2 .nivo-directionNav a.nivo-nextNav::before { background: rgba(0, 0, 0, 0) none repeat scroll 0 0; border: 1px solid #fff; border-radius: 50%; color: #ffffff; content: ">"; cursor: pointer; font: 100 30px/50px FontAwesome; height: 50px; position: absolute; right: 0px; text-align: center; top: 50%; transition: all 300ms ease-in 0s; width: 50px; z-index: 9; font-size: 30px; }
-.niceties.preview-2 { position: relative; height: 100%; }
+
+
 
 /*--------------------------------------------------------------
 # About
